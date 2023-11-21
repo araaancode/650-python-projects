@@ -1,0 +1,5 @@
+amt=float(input("Enter amount: "))
+rate=float(input("Enter rate: "))
+years=float(input("Enter years: "))
+nextPrice=amt*((1+(0.01*rate))**years)
+print("next Price is %12.0f" %(nextPrice))
